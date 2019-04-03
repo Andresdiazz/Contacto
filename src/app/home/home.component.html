@@ -1,0 +1,76 @@
+<div class="container">
+    <h3>Digite el proceso</h3>
+  <div class="row">
+    
+    <div class="col-sm">
+        Ingrese el nombre del proceso*
+      <input [(ngModel)]="nameProcess" class="form-control marbo15" type="text" placeholder="" />
+    </div>
+    <div class="col-sm">
+        Ingrese el nombre interno*
+      <input [(ngModel)]="nickname" class="form-control marbo15" type="text" placeholder="" />
+    </div>
+    <div class="col-sm">
+        Ingrese la sección*
+      <input [(ngModel)]="section" class="form-control marbo15" type="text" placeholder="" />
+    </div>
+    <div class="col-sm">
+        Ingrese el idSnomed
+      <input [(ngModel)]="idSonomed" class="form-control marbo15" type="text" placeholder="" />
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    
+    <div class="col-sm">
+          Ingrese el parametro*
+        <input  class="form-control marbo15" type="text" placeholder="" />
+      </div>
+      <div class="col-sm">
+          Ingrese la unidad*
+        <input  class="form-control marbo15" type="text" placeholder="" />
+      </div>
+      <div class="col-sm">
+          Ingrese el Número de Secuencia
+        <input  class="form-control marbo15" type="text" placeholder="" />
+      </div>
+      <div class="col-sm">
+          Ingrese el parametro calculado
+        <input  class="form-control marbo15" type="text" placeholder="" />
+      </div>
+    </div>
+  <hr>  
+    <div class="row">
+    
+        <div class="col-sm">
+          Ingrese el sexo
+            <select class="form-control">
+                <option value="femenino">1</option>
+                <option value="masculino">2</option>
+                <option value="ambos sexos">3</option>
+                
+              </select>
+          </div>
+          <div class="col-sm">
+              Ingrese la unidad*
+            <input  class="form-control marbo15" type="text" placeholder="" />
+          </div>
+          <div class="col-sm">
+              Ingrese el Número de Secuencia
+            <input  class="form-control marbo15" type="text" placeholder="" />
+          </div>
+          <div class="col-sm">
+              Ingrese el parametro calculado
+            <input  class="form-control marbo15" type="text" placeholder="" />
+          </div>
+        </div>
+      <div class="marbo15">
+        <a (click)="register()" class="btn btn-primary">Registrar porceso</a>
+      </div>
+   
+    
+    
+    
+   
+   
+</div>
